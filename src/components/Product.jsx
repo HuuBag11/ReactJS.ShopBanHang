@@ -4,6 +4,7 @@ import { addCart } from '../redux/action';
 import {useParams} from 'react-router-dom';
 import {NavLink} from 'react-router-dom';
 import Skeleton from 'react-loading-skeleton';
+import Products from './Products';
 
 export default function Product() {
 
@@ -76,6 +77,7 @@ export default function Product() {
                     {loading ? <Loading/> : <ShowProduct/>}
                 </div>
             </div>
+            <Products/>
         </div>
     )
 }

@@ -2,6 +2,7 @@
 import React from "react";
 import Products from "./Products";
 import Carousel from "react-bootstrap/Carousel";
+import Pricing from "./Pricing";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         </Carousel.Item>
       </Carousel>
       <Products />
+      <Pricing/>
     </>
   );
 }
