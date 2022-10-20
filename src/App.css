@@ -52,3 +52,15 @@ label {
   font-weight: 600;
   color: rgb(34, 34, 34);
 }
+
+/* header */
+div > nav:has(.navbar){
+  position: sticky;
+  top : 0;
+}
+
+/* footer */
+.container-footer p a.text-reset{
+  text-decoration: none;
+  text-transform: uppercase;
+}
